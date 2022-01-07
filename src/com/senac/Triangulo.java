@@ -4,12 +4,20 @@ public class Triangulo {
 
     public static void main(String[] args) {
 
-        double base = 30;
-        double altura = 22;
 
+        int base = 30;
+        int altura = 22;
         double areaDoTriangulo = base * altura / 2;
 
-        System.out.println();
-    }
 
+        if (base == 30) {
+            areaDoTriangulo = base * altura / 2;
+        } else {
+            System.out.println("valor invalido");
+        }
+
+        System.out.println();
+
+
+    }
 }

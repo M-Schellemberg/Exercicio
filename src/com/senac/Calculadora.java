@@ -4,6 +4,7 @@ public class Calculadora {
 
     public static void main(String[] args) {
 
+        // Eu que fiz
         /*
         double soma = 1;
         double subtração = 1;
@@ -23,6 +24,8 @@ public class Calculadora {
 
          */
 
+        //Professor que fez
+
         double numeroUm = 20;
         double numerodois = 6;
 
@@ -34,6 +37,7 @@ public class Calculadora {
         double quadradoSegundoNumero = numerodois * numerodois;
 
         System.out.println();
+
 
     }
 }
